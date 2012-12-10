@@ -21,6 +21,8 @@
 		E137DAE91671BF6700AC0735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E137DACA1671BF6700AC0735 /* Foundation.framework */; };
 		E137DAF11671BF6700AC0735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E137DAEF1671BF6700AC0735 /* InfoPlist.strings */; };
 		E137DAF41671BF6700AC0735 /* SimpleDocumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E137DAF31671BF6700AC0735 /* SimpleDocumentTests.m */; };
+		E137DAFF1671BF9200AC0735 /* SimpleDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E137DAFE1671BF9200AC0735 /* SimpleDocument.m */; };
+		E1C8A0DD1671D2740006A5E9 /* SimpleDocumentUser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8A0DC1671D2740006A5E9 /* SimpleDocumentUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		E137DAF01671BF6700AC0735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E137DAF21671BF6700AC0735 /* SimpleDocumentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleDocumentTests.h; sourceTree = "<group>"; };
 		E137DAF31671BF6700AC0735 /* SimpleDocumentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDocumentTests.m; sourceTree = "<group>"; };
+		E137DAFD1671BF9200AC0735 /* SimpleDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDocument.h; sourceTree = "<group>"; };
+		E137DAFE1671BF9200AC0735 /* SimpleDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleDocument.m; sourceTree = "<group>"; };
+		E1C8A0DB1671D2740006A5E9 /* SimpleDocumentUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDocumentUser.h; sourceTree = "<group>"; };
+		E1C8A0DC1671D2740006A5E9 /* SimpleDocumentUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleDocumentUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 			children = (
 				E137DAD71671BF6700AC0735 /* AppDelegate.h */,
 				E137DAD81671BF6700AC0735 /* AppDelegate.m */,
+				E137DAFD1671BF9200AC0735 /* SimpleDocument.h */,
+				E137DAFE1671BF9200AC0735 /* SimpleDocument.m */,
+				E1C8A0DB1671D2740006A5E9 /* SimpleDocumentUser.h */,
+				E1C8A0DC1671D2740006A5E9 /* SimpleDocumentUser.m */,
 				E137DACF1671BF6700AC0735 /* Supporting Files */,
 			);
 			path = SimpleDocument;
@@ -263,6 +273,8 @@
 			files = (
 				E137DAD51671BF6700AC0735 /* main.m in Sources */,
 				E137DAD91671BF6700AC0735 /* AppDelegate.m in Sources */,
+				E137DAFF1671BF9200AC0735 /* SimpleDocument.m in Sources */,
+				E1C8A0DD1671D2740006A5E9 /* SimpleDocumentUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +443,7 @@
 				E137DAF91671BF6700AC0735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E137DAFA1671BF6700AC0735 /* Build configuration list for PBXNativeTarget "SimpleDocumentTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +452,7 @@
 				E137DAFC1671BF6700AC0735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
